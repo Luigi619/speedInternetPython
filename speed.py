@@ -17,6 +17,8 @@ upload_result = test.upload()
 
 ping_result = test.results.ping
 
+print(best)
+
 print(f"Download speed: {download_result / 1024 / 1024:.2f} Mbit/s")
 print(f"Upload speed: {upload_result / 1024 / 1024:.2f} Mbit/s")
 print(f"Ping speed: {ping_result:.2f} ms")
